@@ -1,4 +1,12 @@
+#include <windows.h>
+#include <stdio.h>
+#include <Wingdi.h>
 
+
+int discovery()
+{
+    
+}
 
 
 
