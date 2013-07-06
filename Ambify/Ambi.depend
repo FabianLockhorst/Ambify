@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1372541387 source:c:\users\zimon\codeblocks projects\ambi\main.c
+	"header.h"
+
+1372541342 c:\users\zimon\codeblocks projects\ambi\header.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+
+1372543969 source:c:\users\zimon\codeblocks projects\ambi\colors.c
+	"header.h"
+
+1372543343 source:c:\users\zimon\codeblocks projects\ambi\process.c
+	"header.h"
+
