@@ -13,3 +13,24 @@
 1372543343 source:c:\users\zimon\codeblocks projects\ambi\process.c
 	"header.h"
 
+1373144277 source:d:\user\documents\github\ambify\ambify\bridge.c
+	"header.h"
+
+1373147187 d:\user\documents\github\ambify\ambify\header.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<curl/curl.h>
+
+1373144277 source:d:\user\documents\github\ambify\ambify\colors.c
+	"header.h"
+
+1373147335 source:d:\user\documents\github\ambify\ambify\discovery.c
+	"header.h"
+
+1373144277 source:d:\user\documents\github\ambify\ambify\process.c
+	"header.h"
+
+1373147373 source:d:\user\documents\github\ambify\ambify\main.c
+	"header.h"
+

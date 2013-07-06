@@ -1,11 +1,25 @@
-#include <windows.h>
-#include <stdio.h>
-#include <Wingdi.h>
-
+#include "header.h"
 
 int discovery()
 {
-    
+  CURL *curl;
+  CURLcode res;
+  //printf(curl + "test");
+  curl = curl_easy_init();
+  if(curl) {
+    curl_easy_setopt(curl, CURLOPT_URL, "http://http://192.168.0.11/api/newdeveloper/lights");
+    /* example.com is redirected, so we tell libcurl to follow redirection */
+    fprintf(stderr, curl);
+    res = curl_easy_perform(curl);
+    /* Check for errors */
+    if(res != CURLE_OK)
+      fprintf(stderr, "curl_easy_perform() failed: %s\n",
+              curl_easy_strerror(res));
+
+    /* always cleanup */
+    curl_easy_cleanup(curl);
+}
+return 0;
 }
 
 
@@ -17,11 +31,10 @@ int discovery()
 
 
 
-
-/* 
+/*
  * ######################################
  * #            -Ruby example-          #
- * ###################################### 
+ * ######################################
  */
 
 /*class HueController < Sinatra::Base

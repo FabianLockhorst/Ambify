@@ -1,5 +1,6 @@
 #include "header.h"
 
+
 int* lightGroups;
 
 void screen_dimensions(int* x, int* y) {
@@ -111,8 +112,14 @@ int configureAmbification() {
 
 int main() {
 
+
+    //Enabeling cURL for the project
+    curl_global_init(CURL_GLOBAL_WIN32);
+
     // Retrieve all the groups from the bridge
     lightGroups = detectLightGroups();
+
+
 
     // Amibification settings
     configureAmbification();

@@ -1,6 +1,7 @@
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <curl/curl.h>
 
 ///////////////////////////////////////////
 // Color structures and functions

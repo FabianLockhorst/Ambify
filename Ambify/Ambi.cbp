@@ -15,6 +15,7 @@
 					<Add option="-g" />
 				</Compiler>
 				<Linker>
+					<Add option="-static" />
 					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libgdi32.a" />
 				</Linker>
 			</Target>
