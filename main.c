@@ -17,7 +17,7 @@
 int main(int argc, char** argv) {
 
     colourCalc(); //run colour calculations.
-    
+    printf("Hello");
    
     return(0);
 }
