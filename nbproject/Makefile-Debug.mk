@@ -21,7 +21,7 @@ FC=gfortran
 AS=as
 
 # Macros
-CND_PLATFORM=Cygwin_4.x-Windows
+CND_PLATFORM=Cygwin-Windows
 CND_DLIB_EXT=dll
 CND_CONF=Debug
 CND_DISTDIR=dist
@@ -35,9 +35,11 @@ OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
 OBJECTFILES= \
-	${OBJECTDIR}/_ext/2048919765/colourCalc.o \
 	${OBJECTDIR}/_ext/2048919765/discovery.o \
-	${OBJECTDIR}/_ext/2048919765/main.o
+	${OBJECTDIR}/_ext/2048919765/main.o \
+	${OBJECTDIR}/bridge.o \
+	${OBJECTDIR}/colors.o \
+	${OBJECTDIR}/process.o
 
 
 # C Compiler Flags
@@ -64,11 +66,6 @@ ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ambify.exe: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
 	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/ambify ${OBJECTFILES} ${LDLIBSOPTIONS}
 
-${OBJECTDIR}/_ext/2048919765/colourCalc.o: ../Ambify/colourCalc.c 
-	${MKDIR} -p ${OBJECTDIR}/_ext/2048919765
-	${RM} $@.d
-	$(COMPILE.c) -g -mwindows -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/2048919765/colourCalc.o ../Ambify/colourCalc.c
-
 ${OBJECTDIR}/_ext/2048919765/discovery.o: ../Ambify/discovery.c 
 	${MKDIR} -p ${OBJECTDIR}/_ext/2048919765
 	${RM} $@.d
@@ -78,6 +75,21 @@ ${OBJECTDIR}/_ext/2048919765/main.o: ../Ambify/main.c
 	${MKDIR} -p ${OBJECTDIR}/_ext/2048919765
 	${RM} $@.d
 	$(COMPILE.c) -g -mwindows -MMD -MP -MF $@.d -o ${OBJECTDIR}/_ext/2048919765/main.o ../Ambify/main.c
+
+${OBJECTDIR}/bridge.o: bridge.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -g -mwindows -MMD -MP -MF $@.d -o ${OBJECTDIR}/bridge.o bridge.c
+
+${OBJECTDIR}/colors.o: colors.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -g -mwindows -MMD -MP -MF $@.d -o ${OBJECTDIR}/colors.o colors.c
+
+${OBJECTDIR}/process.o: process.c 
+	${MKDIR} -p ${OBJECTDIR}
+	${RM} $@.d
+	$(COMPILE.c) -g -mwindows -MMD -MP -MF $@.d -o ${OBJECTDIR}/process.o process.c
 
 # Subprojects
 .build-subprojects:
