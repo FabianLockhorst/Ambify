@@ -10,11 +10,11 @@
 	<File name="colors.c" open="0" top="0" tabpos="12">
 		<Cursor position="1958" topLine="0" />
 	</File>
-	<File name="curltest.c" open="0" top="0" tabpos="4">
-		<Cursor position="340" topLine="0" />
+	<File name="curltest.c" open="1" top="1" tabpos="4">
+		<Cursor position="384" topLine="0" />
 	</File>
-	<File name="header.h" open="1" top="1" tabpos="3">
-		<Cursor position="103" topLine="0" />
+	<File name="header.h" open="1" top="0" tabpos="3">
+		<Cursor position="1112" topLine="12" />
 	</File>
 	<File name="main.c" open="1" top="0" tabpos="2">
 		<Cursor position="1312" topLine="18" />

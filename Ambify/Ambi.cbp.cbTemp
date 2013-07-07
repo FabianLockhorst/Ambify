@@ -36,8 +36,21 @@
 			<Add option="-Wall" />
 		</Compiler>
 		<Linker>
+			<Add library="curl\lib\libcrypto.a" />
+			<Add library="curl\lib\libcrypto.dll.a" />
+			<Add library="curl\lib\libcurl.a" />
+			<Add library="curl\lib\libcurldll.a" />
+			<Add library="curl\lib\libidn.a" />
+			<Add library="curl\lib\libidn.dll.a" />
+			<Add library="curl\lib\librtmp.a" />
+			<Add library="curl\lib\libssh2.a" />
+			<Add library="curl\lib\libssh2dll.a" />
+			<Add library="curl\lib\libssl.a" />
+			<Add library="curl\lib\libssl.dll.a" />
+			<Add library="curl\lib\libz.a" />
+			<Add library="curl\lib\libz.dll.a" />
+			<Add library="curl\lib\libzdll.a" />
 			<Add library="GDI\libgdi32.a" />
-			<Add library="curl\lib\Release\curllib.lib" />
 		</Linker>
 		<Unit filename="ambi.c">
 			<Option compilerVar="CC" />
