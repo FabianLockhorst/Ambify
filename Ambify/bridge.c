@@ -29,5 +29,6 @@ int* detectLightGroups() {
 int adjustLightGroup(int GID, HSVColor* hsv) {
 
     // TODO: Here should be all the mumbojumbo of doing the PUT request
+    return 0;
 
 }

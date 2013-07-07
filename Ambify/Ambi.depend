@@ -35,3 +35,75 @@
 1373147630 source:d:\user\documents\github\ambify\ambify\main.c
 	"header.h"
 
+1373205328 source:c:\users\zimon\documents\github\ambify\ambify\bridge.c
+	"header.h"
+
+1373208624 c:\users\zimon\documents\github\ambify\ambify\header.h
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	"curl/include/curl/curl.h"
+	"cJSON/cJSON.h"
+
+1373209186 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<types.h>
+	<time.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1232359236 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\curlver.h
+
+1232359236 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\curlbuild.h
+	<sys/types.h>
+	<stdint.h>
+
+1219658558 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\curlrules.h
+
+1210628608 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\easy.h
+
+1211286136 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\multi.h
+	"curl.h"
+
+1232089824 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\typecheck-gcc.h
+
+1373205009 c:\users\zimon\documents\github\ambify\ambify\cjson\cjson.h
+
+1373205410 source:c:\users\zimon\documents\github\ambify\ambify\colors.c
+	"header.h"
+
+1373206061 source:c:\users\zimon\documents\github\ambify\ambify\discovery.c
+	"header.h"
+
+1373208625 source:c:\users\zimon\documents\github\ambify\ambify\main.c
+	"header.h"
+
+1373205834 source:c:\users\zimon\documents\github\ambify\ambify\process.c
+	"header.h"
+
+1373205394 source:c:\users\zimon\documents\github\ambify\ambify\ambi.c
+	"header.h"
+
+1373205186 c:\users\zimon\documents\github\ambify\ambify\curl\include\config-win32.h
+	<tcp.h>
+
+1373137645 source:c:\users\zimon\documents\github\ambify\ambify\utility.c
+	"header.h"
+
+1373208635 source:c:\users\zimon\documents\github\ambify\ambify\curltest.c
+	"header.h"
+

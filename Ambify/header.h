@@ -1,9 +1,9 @@
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <curl/curl.h>
-#include <cJSON/cJSON.h>
-
+//#include "curl/include/config-win32.h"
+#include "curl/include/curl/curl.h"
+#include "cJSON/cJSON.h"
 
 
 ///////////////////////////////////////////
@@ -14,6 +14,9 @@ typedef struct HSVColor {
     float Hue;
     float Saturation;
     float Value;
+    int Red;
+    int Green;
+    int Blue;
 } HSVColor;
 
 
@@ -23,8 +26,21 @@ void process(void* data, int data_end, unsigned int data_entries, int BytesPerPi
 ///////////////////////////////////////////
 // Light structures and functions
 //
-
-
 int* detectLightGroups();
 int adjustLightGroup(int GID, HSVColor* hsv);
-int discovery();
+
+
+///////////////////////////////////////////
+// AMBI structures and functions
+//
+int activateAMBI(int* lightGroups);
+
+///////////////////////////////////////////
+// Utility structures and functions
+//
+void screen_dimensions(int* x, int* y);
+
+///////////////////////////////////////////
+// Bridge structures and functions
+//
+int curltest(void);

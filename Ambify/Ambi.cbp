@@ -7,8 +7,8 @@
 		<Option compiler="gcc" />
 		<Build>
 			<Target title="Debug">
-				<Option output="bin/Debug/Ambi" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Debug/" />
+				<Option output="bin\Debug\Ambi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -16,12 +16,11 @@
 				</Compiler>
 				<Linker>
 					<Add option="-static" />
-					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libgdi32.a" />
 				</Linker>
 			</Target>
 			<Target title="Release">
-				<Option output="bin/Release/Ambi" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
+				<Option output="bin\Release\Ambi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -29,20 +28,40 @@
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
-					<Add library="C:\Program Files (x86)\CodeBlocks\MinGW\lib\libgdi32.a" />
+					<Add option="-static" />
 				</Linker>
 			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Linker>
+			<Add library="curl\lib\libcrypto.a" />
+			<Add library="curl\lib\libcrypto.dll.a" />
+			<Add library="curl\lib\libcurl.a" />
+			<Add library="curl\lib\libcurldll.a" />
+			<Add library="curl\lib\libidn.a" />
+			<Add library="curl\lib\libidn.dll.a" />
+			<Add library="curl\lib\librtmp.a" />
+			<Add library="curl\lib\libssh2.a" />
+			<Add library="curl\lib\libssh2dll.a" />
+			<Add library="curl\lib\libssl.a" />
+			<Add library="curl\lib\libssl.dll.a" />
+			<Add library="curl\lib\libz.a" />
+			<Add library="curl\lib\libz.dll.a" />
+			<Add library="curl\lib\libzdll.a" />
+			<Add library="GDI\libgdi32.a" />
+		</Linker>
+		<Unit filename="ambi.c">
+			<Option compilerVar="CC" />
+		</Unit>
 		<Unit filename="bridge.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="colors.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="discovery.c">
+		<Unit filename="curltest.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="header.h" />
@@ -50,6 +69,9 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="process.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="utility.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>

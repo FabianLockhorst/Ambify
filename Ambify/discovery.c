@@ -10,7 +10,7 @@ int light;
 
     curl = curl_easy_init();
     if(curl) {
-        curl_easy_setopt(curl, CURLOPT_PUT, "http://192.168.0.11/api/newdeveloper/lights" + light + "state");
+        curl_easy_setopt(curl, CURLOPT_PUT, "http://192.168.0.11/api/newdeveloper/lightsstate");
 
         fprintf(stderr, curl);
         res = curl_easy_perform(curl);

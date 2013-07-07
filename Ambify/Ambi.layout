@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_layout_file>
 	<ActiveTarget name="Debug" />
-	<File name="bridge.c" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1166" topLine="0" />
-		</Cursor>
+	<File name="ambi.c" open="1" top="0" tabpos="1">
+		<Cursor position="439" topLine="1" />
 	</File>
-	<File name="colors.c" open="1" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="347" topLine="27" />
-		</Cursor>
+	<File name="bridge.c" open="0" top="0" tabpos="9">
+		<Cursor position="1034" topLine="0" />
 	</File>
-	<File name="discovery.c" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="141" topLine="0" />
-		</Cursor>
+	<File name="colors.c" open="0" top="0" tabpos="12">
+		<Cursor position="1958" topLine="0" />
 	</File>
-	<File name="header.h" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="111" topLine="0" />
-		</Cursor>
+	<File name="curltest.c" open="1" top="1" tabpos="4">
+		<Cursor position="384" topLine="0" />
 	</File>
-	<File name="main.c" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3549" topLine="92" />
-		</Cursor>
+	<File name="header.h" open="1" top="0" tabpos="3">
+		<Cursor position="1112" topLine="12" />
 	</File>
-	<File name="process.c" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="6357" topLine="83" />
-		</Cursor>
+	<File name="main.c" open="1" top="0" tabpos="2">
+		<Cursor position="1312" topLine="18" />
+	</File>
+	<File name="process.c" open="0" top="0" tabpos="11">
+		<Cursor position="7003" topLine="94" />
 	</File>
 </CodeBlocks_layout_file>
