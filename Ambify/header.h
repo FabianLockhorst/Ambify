@@ -2,6 +2,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <curl/curl.h>
+#include <cJSON/cJSON.h>
+
+
 
 ///////////////////////////////////////////
 // Color structures and functions
@@ -24,3 +27,4 @@ void process(void* data, int data_end, unsigned int data_entries, int BytesPerPi
 
 int* detectLightGroups();
 int adjustLightGroup(int GID, HSVColor* hsv);
+int discovery();

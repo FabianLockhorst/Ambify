@@ -107,7 +107,8 @@ int configureAmbification() {
     printf("You can do so by, using the Philips Hue app, adding them to the group \"Ambify <section>\" where <section> is the ");
     printf("section name.\n\n");
 
-
+    //Debug needed dis
+    return 0;
 }
 
 int main() {
@@ -126,6 +127,8 @@ int main() {
 
     // Start the Ambification
     activateAMBI();
+
+    discovery();
 
     // Free the light groups that where allocated on the heap:
     free(lightGroups);

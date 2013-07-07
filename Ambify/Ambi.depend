@@ -16,21 +16,22 @@
 1373144277 source:d:\user\documents\github\ambify\ambify\bridge.c
 	"header.h"
 
-1373147187 d:\user\documents\github\ambify\ambify\header.h
+1373203977 d:\user\documents\github\ambify\ambify\header.h
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
 	<curl/curl.h>
+	<cJSON/cJSON.h>
 
 1373144277 source:d:\user\documents\github\ambify\ambify\colors.c
 	"header.h"
 
-1373147335 source:d:\user\documents\github\ambify\ambify\discovery.c
+1373203046 source:d:\user\documents\github\ambify\ambify\discovery.c
 	"header.h"
 
 1373144277 source:d:\user\documents\github\ambify\ambify\process.c
 	"header.h"
 
-1373147373 source:d:\user\documents\github\ambify\ambify\main.c
+1373147630 source:d:\user\documents\github\ambify\ambify\main.c
 	"header.h"
 
