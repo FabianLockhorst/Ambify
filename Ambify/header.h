@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 //#include "curl/include/config-win32.h"
-#include "curl/include/curl/curl.h"
+#include "curl32/include/curl/curl.h"
 #include "cJSON/cJSON.h"
 
 

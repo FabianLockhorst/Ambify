@@ -38,11 +38,11 @@
 1373205328 source:c:\users\zimon\documents\github\ambify\ambify\bridge.c
 	"header.h"
 
-1373208624 c:\users\zimon\documents\github\ambify\ambify\header.h
+1373661416 c:\users\zimon\documents\github\ambify\ambify\header.h
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
-	"curl/include/curl/curl.h"
+	"curl32/include/curl/curl.h"
 	"cJSON/cJSON.h"
 
 1373209186 c:\users\zimon\documents\github\ambify\ambify\curl\include\curl\curl.h
@@ -106,4 +106,74 @@
 
 1373208635 source:c:\users\zimon\documents\github\ambify\ambify\curltest.c
 	"header.h"
+
+1371853744 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<osreldate.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1371893540 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\curlver.h
+
+1371893540 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\curlbuild.h
+	<sys/types.h>
+	<sys/socket.h>
+
+1371853744 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\curlrules.h
+
+1355268742 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\easy.h
+
+1371853744 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\multi.h
+	"curl.h"
+
+1371853744 c:\users\zimon\documents\github\ambify\ambify\curl64\include\curl\typecheck-gcc.h
+
+1373209186 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\curl.h
+	"curlver.h"
+	"curlbuild.h"
+	"curlrules.h"
+	<stdio.h>
+	<limits.h>
+	<types.h>
+	<time.h>
+	<sys/types.h>
+	<time.h>
+	<winsock2.h>
+	<ws2tcpip.h>
+	<sys/select.h>
+	<sys/socket.h>
+	<sys/time.h>
+	<sys/types.h>
+	<support/SupportDefs.h>
+	"easy.h"
+	"multi.h"
+	"typecheck-gcc.h"
+
+1232359236 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\curlver.h
+
+1232359236 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\curlbuild.h
+	<sys/types.h>
+	<stdint.h>
+
+1219658558 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\curlrules.h
+
+1210628608 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\easy.h
+
+1211286136 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\multi.h
+	"curl.h"
+
+1232089824 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\typecheck-gcc.h
 
