@@ -223,6 +223,14 @@ int activateAMBI(int* lightGroups) {
         printf("Center:             HSV(%5.0f, %3.0f, %3.0f), RGB(%3.0d, %3.0d, %3.0d)\n", hsvCenter.Hue, hsvCenter.Saturation, hsvCenter.Value, hsvCenter.Red, hsvCenter.Green, hsvCenter.Blue);
 
         // Now, connect with the bridge and update the lights:
+        adjustLightGroup(lightGroups[0], &hsvLeft);
+        adjustLightGroup(lightGroups[2], &hsvRight);
+        adjustLightGroup(lightGroups[4], &hsvVerticalCenter);
+        adjustLightGroup(lightGroups[6], &hsvTop);
+        adjustLightGroup(lightGroups[8], &hsvBottom);
+        adjustLightGroup(lightGroups[10], &hsvHorizontalCenter);
+        adjustLightGroup(lightGroups[12], &hsvFullScreen);
+        adjustLightGroup(lightGroups[14], &hsvCenter);
 
         // Now reset all:
         for (n = 0; n < 9; n++) {

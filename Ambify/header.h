@@ -1,10 +1,10 @@
 #include <windows.h>
 #include <stdio.h>
 #include <stdlib.h>
-//#include "curl/include/config-win32.h"
 #include "curl32/include/curl/curl.h"
 #include "cJSON/cJSON.h"
 
+#define BRERR_NO_LIGHTS 2852
 
 ///////////////////////////////////////////
 // Color structures and functions
@@ -21,14 +21,6 @@ typedef struct HSVColor {
 
 
 int createHSV(int R, int G, int B, HSVColor* dest);
-void process(void* data, int data_end, unsigned int data_entries, int BytesPerPixel, unsigned int scr_width, unsigned int scr_height);
-
-///////////////////////////////////////////
-// Light structures and functions
-//
-int* detectLightGroups();
-int adjustLightGroup(int GID, HSVColor* hsv);
-
 
 ///////////////////////////////////////////
 // AMBI structures and functions
@@ -43,4 +35,13 @@ void screen_dimensions(int* x, int* y);
 ///////////////////////////////////////////
 // Bridge structures and functions
 //
+int* detectLightGroups();
+int adjustLightGroup(int GID, HSVColor* hsv);
+
+///////////////////////////////////////////
+// Server structures and functions
+//
 int curltest(void);
+void init_server_connection();
+char *retrieveGroupsFromServer();
+int adjustGroupOnServer(int groupID, char* json_string);

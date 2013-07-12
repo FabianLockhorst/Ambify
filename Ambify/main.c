@@ -13,16 +13,16 @@ int configureAmbification() {
     printf("Screen dimensions: %dx%d (auto-detect)\n", x, y);
     printf("Amount of lights assigned to (sections of) the screen:\n");
     printf(" Section name:       #:\n");
-    printf(" * Left              %d\n", lightGroups[1]);
-    printf(" * Right             %d\n", lightGroups[3]);
-    printf(" * VerticalCenter    %d\n", lightGroups[5]);
-    printf(" * Top               %d\n", lightGroups[7]);
-    printf(" * Bottom            %d\n", lightGroups[9]);
-    printf(" * HorizontalCenter  %d\n", lightGroups[11]);
-    printf(" * FullScreen        %d\n", lightGroups[13]);
-    printf(" * Center            %d\n", lightGroups[15]);
-    printf("\nTo assign more lights to (sections of) the screen, add lights to the specific Ambify groups. ");
-    printf("You can do so by, using the Philips Hue app, adding them to the group \"Ambify <section>\" where <section> is the ");
+    printf(" * Left              %d (GID: %d)\n", lightGroups[1], lightGroups[0]);
+    printf(" * Right             %d (GID: %d)\n", lightGroups[3], lightGroups[2]);
+    printf(" * VerticalCenter    %d (GID: %d)\n", lightGroups[5], lightGroups[4]);
+    printf(" * Top               %d (GID: %d)\n", lightGroups[7], lightGroups[6]);
+    printf(" * Bottom            %d (GID: %d)\n", lightGroups[9], lightGroups[8]);
+    printf(" * HorizontalCenter  %d (GID: %d)\n", lightGroups[11], lightGroups[10]);
+    printf(" * FullScreen        %d (GID: %d)\n", lightGroups[13], lightGroups[12]);
+    printf(" * Center            %d (GID: %d)\n", lightGroups[15], lightGroups[14]);
+    printf("\nTo assign more lights to (sections of) the screen, name lights to the specific Ambify groups. ");
+    printf("You can do so by, using the Philips Hue app, naming them \"Ambify <section>\" where <section> is the ");
     printf("section name. To refresh, restart Ambify.\n\n");
 
     // Return
@@ -32,8 +32,9 @@ int configureAmbification() {
 
 int main() {
 
-    //Enabeling cURL for the project
     curltest();
+    // Initialize the connection to the server (retrieve bridge's IP)
+    init_server_connection();
 
     // Retrieve all the groups from the bridge:
     lightGroups = detectLightGroups();

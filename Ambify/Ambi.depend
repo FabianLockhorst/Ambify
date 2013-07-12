@@ -35,10 +35,10 @@
 1373147630 source:d:\user\documents\github\ambify\ambify\main.c
 	"header.h"
 
-1373205328 source:c:\users\zimon\documents\github\ambify\ambify\bridge.c
+1373669465 source:c:\users\zimon\documents\github\ambify\ambify\bridge.c
 	"header.h"
 
-1373661416 c:\users\zimon\documents\github\ambify\ambify\header.h
+1373669014 c:\users\zimon\documents\github\ambify\ambify\header.h
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
@@ -89,13 +89,13 @@
 1373206061 source:c:\users\zimon\documents\github\ambify\ambify\discovery.c
 	"header.h"
 
-1373208625 source:c:\users\zimon\documents\github\ambify\ambify\main.c
+1373669429 source:c:\users\zimon\documents\github\ambify\ambify\main.c
 	"header.h"
 
 1373205834 source:c:\users\zimon\documents\github\ambify\ambify\process.c
 	"header.h"
 
-1373205394 source:c:\users\zimon\documents\github\ambify\ambify\ambi.c
+1373669498 source:c:\users\zimon\documents\github\ambify\ambify\ambi.c
 	"header.h"
 
 1373205186 c:\users\zimon\documents\github\ambify\ambify\curl\include\config-win32.h
@@ -176,4 +176,17 @@
 	"curl.h"
 
 1232089824 c:\users\zimon\documents\github\ambify\ambify\curl32\include\curl\typecheck-gcc.h
+
+1373205009 source:c:\users\zimon\documents\github\ambify\ambify\cjson\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<float.h>
+	<limits.h>
+	<ctype.h>
+	"cJSON.h"
+
+1373669000 source:c:\users\zimon\documents\github\ambify\ambify\server.c
+	"header.h"
 
