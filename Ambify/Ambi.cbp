@@ -16,6 +16,7 @@
 				</Compiler>
 				<Linker>
 					<Add option="-static" />
+					<Add library="curl32\lib\Release\curllib.lib" />
 				</Linker>
 			</Target>
 			<Target title="Release">
@@ -37,7 +38,6 @@
 		</Compiler>
 		<Linker>
 			<Add library="GDI\libgdi32.a" />
-			<Add library="curl\lib\Release\curllib.lib" />
 		</Linker>
 		<Unit filename="ambi.c">
 			<Option compilerVar="CC" />
@@ -45,17 +45,17 @@
 		<Unit filename="bridge.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="colors.c">
+		<Unit filename="cJSON\cJSON.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="curltest.c">
+		<Unit filename="colors.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="header.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="process.c">
+		<Unit filename="server.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="utility.c">

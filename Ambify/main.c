@@ -32,7 +32,6 @@ int configureAmbification() {
 
 int main() {
 
-    curltest();
     // Initialize the connection to the server (retrieve bridge's IP)
     init_server_connection();
 

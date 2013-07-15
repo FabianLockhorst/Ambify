@@ -35,10 +35,10 @@
 1373147630 source:d:\user\documents\github\ambify\ambify\main.c
 	"header.h"
 
-1373669465 source:c:\users\zimon\documents\github\ambify\ambify\bridge.c
+1373669541 source:c:\users\zimon\documents\github\ambify\ambify\bridge.c
 	"header.h"
 
-1373669014 c:\users\zimon\documents\github\ambify\ambify\header.h
+1373915378 c:\users\zimon\documents\github\ambify\ambify\header.h
 	<windows.h>
 	<stdio.h>
 	<stdlib.h>
@@ -89,7 +89,7 @@
 1373206061 source:c:\users\zimon\documents\github\ambify\ambify\discovery.c
 	"header.h"
 
-1373669429 source:c:\users\zimon\documents\github\ambify\ambify\main.c
+1373708054 source:c:\users\zimon\documents\github\ambify\ambify\main.c
 	"header.h"
 
 1373205834 source:c:\users\zimon\documents\github\ambify\ambify\process.c

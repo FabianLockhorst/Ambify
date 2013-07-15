@@ -41,7 +41,6 @@ int adjustLightGroup(int GID, HSVColor* hsv);
 ///////////////////////////////////////////
 // Server structures and functions
 //
-int curltest(void);
 void init_server_connection();
 char *retrieveGroupsFromServer();
 int adjustGroupOnServer(int groupID, char* json_string);
